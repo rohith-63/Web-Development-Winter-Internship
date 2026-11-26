@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index Page</title>
+  </head>
+      <body>
+        <!-- Top Header & Navigation -->
+        <header>
+          <h1>My Website</h1>
+          <nav aria-label="Main Navigation">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </header>
+
+        <!-- Main Page Content -->
+        <main>
+          <section id="about">
+            <h2>Welcome</h2>
+            <p>
+              This is a basic, accessible
+              <strong>HTML index page</strong> structured with semantic tags.
+            </p>
+          </section>
+
+          <section id="services">
+            <h2>What We Do</h2>
+            <article>
+              <h3>Web Development</h3>
+              <p>
+                Building clean, fast, and responsive websites using modern web
+                standards.
+              </p>
+            </article>
+          </section>
+
+          <section id="contact">
+            <h2>Get in Touch</h2>
+            <form action="/submit" method="POST">
+              <p>
+                <label for="name">Name:</label><br />
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </p>
+              <p>
+                <label for="email">Email:</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </p>
+              <button type="submit">Send Message</button>
+            </form>
+          </section>
+        </main>
+
+        <!-- Bottom Footer -->
+        <footer>
+          <p>Builted a basic index page</p>
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>
